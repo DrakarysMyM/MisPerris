@@ -1,0 +1,129 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-color: #85D4B7;
+    font-family: 'Arial', sans-serif;
+}
+.alinear{
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+    background-color: #85D4B7;
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    margin-bottom: 80px;
+}
+#logo{
+    width: 35%;
+    float: left;
+}
+nav{
+    width: 60%;
+    float: right;
+}
+nav ul{
+    list-style-type: none;
+}
+nav ul li{
+    /*float: right;*/
+    color: white;
+    display: inline-block;
+}
+nav ul li a{
+    color: white;
+    display: inline-block;
+    padding: 20px;
+    text-decoration: none;
+}
+#perro{
+    background-image: url('Imagenes/perro.png');
+    background-color: #6DCCAA;
+    background-repeat: no-repeat;
+    background-size: 60%;
+    background-position: center;
+    width: 100%;
+    height: 500px;
+}
+
+#slogan p{
+    text-align: center;
+    color: #fff;
+}
+footer{
+    padding: 20px;
+    padding-top: 0;
+    box-sizing: border-box;
+    background-color: #6DCCAA;
+    width: 100%;
+    height: 80px;
+    color: #fff;
+    font-size: 18px;
+}
+address, #slogan, #social{
+    float: left;
+    width: 33%;
+    font-weight: 800;
+}
+address{
+    font-style: normal;
+    font-weight: 800;
+}
+#social{
+    padding-left: 100px;
+    box-sizing: border-box;
+}
+#social ul{
+    list-style-type: none;
+     
+}
+#social ul li{
+    float: left;
+}
+#social ul li a{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    padding: 8px;
+    box-sizing: border-box;
+    text-align: center;
+    color: #6DCCAA;
+    border: 2px solid #fff;
+    background-color: #fff;
+    border-radius: 100%;
+    margin-right: 20px; 
+}
+#social ul li a:hover{
+    background-color: #333;
+    border-color: #333;
+    color:#fff;
+}
+
+.izquierda{
+    width: 50%;
+    float:left;
+    padding-right: 20px;
+    box-sizing: border-box;
+    
+}
+.derecha{
+    width: 50%;
+    float:right;
+    padding-left: 20px;
+    box-sizing: border-box;
+    
+}
+.formato, #winkel   {
+    padding:60px;
+    padding-top: 40px;
+    box-sizing: border-box;
+    width: 100%;
+    height: 90vh;
+    background-color: #fff;
+}
+.formato img{
+    width: 50%;
+}
